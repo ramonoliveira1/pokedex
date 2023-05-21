@@ -58,8 +58,20 @@ main .cartao-pokemon {
 	transition: 0.2s ease-in-out;
 }
 
-main .cartao-pokemon:hover {
-	background-color: #96d9d6;
+.plant:hover {
+	background-image: linear-gradient(to left, #59bd40, rgb(196, 72, 169));
+}
+
+.fire:hover{
+	background-image: linear-gradient(to right, rgb(231, 166, 68), rgb(255, 79, 79));
+}
+
+.water:hover{
+	background-image: linear-gradient(to right, rgb(35, 179, 228), rgb(65, 65, 240));
+}
+
+.insect:hover{
+	background-image: linear-gradient(to right, rgb(248, 248, 75), rgb(83, 240, 83));
 }
 
 .modo-escuro .cartao-pokemon {
